@@ -1,25 +1,25 @@
 class Person {
-	 private name: string;
-     private age: number;
-	 constructor(name, age) {
-		this.name = name;
-		this.age = age;
-	 }
+ private _name: string;
+ private _age: number;
+ constructor(name, age) {
+	this.name = name;
+	this.age = age;
+ }
 
-	  // Getter for name
-	  get name() {
-	    return this.name;
-	  }
-	
-	  // Getter for age
-	  get age() {
-	    return this.age;
-	  }
-	
-	  // Setter for age
-	  set age(newAge) {
-	    this.age = newAge;
-	  }
+  // Getter for name
+  get name() {
+	return this.name;
+  }
+
+  // Getter for age
+  get age() {
+	return this.age;
+  }
+
+  // Setter for age
+  set age(newAge) {
+	this.age = newAge;
+  }
 }
 
 class Student extends Person {
