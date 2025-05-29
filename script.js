@@ -1,7 +1,7 @@
 //complete this code
+let name;
+let age;
 class Person {
-	name:string;
-	age:number;
 	constructor(name: string, age: number){
 		this.name= name;
 		this.age= age;
