@@ -1,7 +1,7 @@
 class Person {
   constructor(name, age) {
-    this._name = name;
-    this._age = age;
+    this.name = name;
+    this.age = age;
   }
 
   // Getter for name
