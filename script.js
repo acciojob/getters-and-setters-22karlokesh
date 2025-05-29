@@ -4,23 +4,23 @@ class Person {
 		this.name= name;
 		this.age= age;
 	}
-	get name(){
+	get name(): string{
 		return this.name;
 	}
-	set age(age){
+	set age(age: number){
 		this.age = age;
 	}
 }
 
 class Student extends Person {
-	study(){
-		console.log(this.name+"is studying")
+	study(): void{
+		console.log(this.name+" is studying")
 	}
 }
 
 class Teacher extends Person {
-	teach(){
-		console.log(this.name+"is teaching")
+	teach(): void {
+		console.log(this.name+" is teaching")
 	}
 }
 
