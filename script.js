@@ -2,20 +2,20 @@
 let name;
 let age;
 class Person {
-	constructor(name: string, age: number){
+	constructor(name, age){
 		this.name= name;
 		this.age= age;
 	}
 	get name(): string{
 		return this.name;
 	}
-	set age(age: number){
+	set age(age){
 		this.age = age;
 	}
-	get age(): number{
+	get age(){
 		return this.age;
 	}
-	set name(name: string){
+	set name(name){
 		this.name = name;
 	}
 }
